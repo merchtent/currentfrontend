@@ -1,0 +1,38 @@
+.scrolling-banner {
+    /* position: fixed; #fcd157 #efba0b
+    top: 0;
+    left: 0; */
+    width: 100%;
+    /* background-color: #fcd157; */
+    background-color: #d66329;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1000;
+    /* Make sure it's on top */
+}
+
+.scrolling-text-container {
+    display: flex;
+    white-space: nowrap;
+}
+
+.scrolling-text {
+    color: black;
+    font-size: 1.0rem;
+    padding-left: 50%;
+    /* Start fully off-screen */
+    /* animation: scroll-left 45s linear infinite; */
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+        /* Start at normal position */
+    }
+
+    100% {
+        transform: translateX(-100%);
+        /* Scrolls completely out of view to the left */
+    }
+}

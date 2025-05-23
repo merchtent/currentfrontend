@@ -1,0 +1,20 @@
+const baseURL = process.env.REACT_APP_API_URL
+
+export const urlAccounts = `${baseURL}/accounts`
+export const urlArists = `${baseURL}/artists`
+export const urlGenres = `${baseURL}/genres`
+export const urlAssets = `${baseURL}/assets`
+export const urlProductAssets = `${baseURL}/productassets`
+export const urlProducts = `${baseURL}/products`
+export const urlSupplierProductLines = `${baseURL}/supplierproductlines`
+export const urlShop = `${baseURL}/shop`
+export const urlOrders = `${baseURL}/orders`
+export const urlArtists = `${baseURL}/artists`
+export const urlFavourites = `${baseURL}/favourites`
+export const urlDonations = `${baseURL}/donations`
+export const urlMerchCredits = `${baseURL}/merchcredits`
+export const urlBlogs = `${baseURL}/blogs`
+export const urlInstrgram = `${baseURL}/instagram`
+export const urlSubscriber = `${baseURL}/subscriber`
+export const urlTracking = `${baseURL}/tracking`
+export const urlPageViews = `${baseURL}/pageview    `
